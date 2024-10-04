@@ -1,13 +1,16 @@
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Hero from "./_components/Hero";
+import CategorySearch from "./_components/CategorySearch";
 
 export default function Home() {
   return (
     <div>
-      <h2>HERcurls</h2>
-
+      {/* Hero Section */}
       <Hero />
+
+      {/* Search Bar & Category Options */}
+      <CategorySearch />
     </div>
   );
 }
